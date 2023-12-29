@@ -3,7 +3,7 @@ from neighbors import Neighbors
 from reverse_complement import reverse_complement
 from max_map import MaxMap
 def FrequentWordsWithMismatches_ReverseComplements(Text, k, d):
-  """Finds the DnaA box for Salmonella"""
+  """Finds the DnaA box for Salmonella. Use the Salmonella_enterica.txt file as Text."""
   Patterns = []
   freqMap = {}
   combined = {}
