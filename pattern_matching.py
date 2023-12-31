@@ -1,4 +1,4 @@
-def PatternMatching(Pattern, Genome):
+def PatternMatching(Pattern: str, Genome: str) -> list:
     """Returns the positions where Pattern appears in Genome"""
     positions = []
     k = len(Pattern)

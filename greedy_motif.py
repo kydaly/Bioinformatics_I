@@ -1,7 +1,7 @@
 from motif_profile import Profile
 from score import Score
 from most_probable_kmer import ProfileMostProbableKmer
-def GreedyMotifSearch(Dna, k, t):
+def GreedyMotifSearch(Dna: list, k: int, t: int) -> list:
   """Using a greedy algorithm search for the highest probability k-mer
   from each string in Dna."""
   BestMotifs = []

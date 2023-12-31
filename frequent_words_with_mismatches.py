@@ -1,6 +1,8 @@
 from neighbors import Neighbors
 from max_map import MaxMap
-def FrequentWordsWithMismatches(Text, k, d):
+def FrequentWordsWithMismatches(Text: str, k: int, d: int) ->list:
+  """Outputs k-mers with the highest frequency in string, Text
+  with hamming distance of at most d.""" 
   Patterns = []
   freqMap = {}
   combined = {}

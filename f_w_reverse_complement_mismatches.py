@@ -1,7 +1,7 @@
 from neighbors import Neighbors
 from max_map import MaxMap
 from reverse_complement import reverse_complement
-def FrequentWordsWithMismatches_ReverseComplements(Text, k, d):
+def FrequentWordsWithMismatches_ReverseComplements(Text: str, k: int, d: int) -> list:
   """Returns the k-mers that are most frequent in Text with up to d mismatches and include reverse complements"""
   Patterns = []
   freqMap = {}

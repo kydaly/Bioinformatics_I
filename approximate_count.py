@@ -1,6 +1,6 @@
 from hamming_distance import HammingDistance
-def ApproximateCount(Text, Pattern, k):
-  """Instead of returning the positions the number of instances is returned"""
+def ApproximateCount(Text: str, Pattern: str, k: str) -> int:
+  """Instead of returning the positions, the number of instances is returned"""
   d = len(Pattern)
   
   # initializing list of positions

@@ -1,5 +1,5 @@
 from hamming_distance import HammingDistance
-def Neighbors(Pattern, d):
+def Neighbors(Pattern: str, d: int) -> list:
   """Outputs a list of k-mers that do not exceed a hamming distance of d."""
   nucleotides = ['A', 'T', 'G', 'C']
   if d == 0:

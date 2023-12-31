@@ -1,4 +1,4 @@
-def complement(seq):
+def complement(seq: str) -> str:
   """Takes in a Dna string seq and returns the complementary seq"""
   complement_seq = ""
   for letter in seq:

@@ -1,4 +1,4 @@
-def HammingDistance(p, q):
+def HammingDistance(p: str, q: str) -> int:
   """Outputs the number of differences between strings p and q"""
   count = 0
   for i in range(len(p)):

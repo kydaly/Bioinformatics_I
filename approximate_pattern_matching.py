@@ -1,5 +1,5 @@
 from hamming_distance import HammingDistance
-def ApproximatePatternMatching(Text, Pattern, d):
+def ApproximatePatternMatching(Text: str, Pattern: str, d: int) -> list:
   """Returns the positions that have a hamming distance less than or equal to d"""
   # initialize  list of positions
   positions = []

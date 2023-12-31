@@ -1,4 +1,5 @@
-def skew(genome):
+def skew(genome: str) -> list:
+  """Indexes the difference of G and C in each position in genome"""
   char_list = ['A', 'T', 'C', 'G']
   GC_vals = 0
   indx_vals = [0]

@@ -1,5 +1,5 @@
 from hamming_distance import HammingDistance
-def DistanceBetweenPatternAndStrings(Pattern, dna):
+def DistanceBetweenPatternAndStrings(Pattern: str, dna: list) -> int:
   """Returns the hamming distances between the string Pattern and all strings in dna."""
   total_distance = 0
   k = len(Pattern)

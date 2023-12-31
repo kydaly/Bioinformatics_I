@@ -1,4 +1,4 @@
-def reverse(seq):
+def reverse(seq: str) -> str:
   """Returns the reverse of the input string seq"""
   reverse_seq = ""
   for char in seq:

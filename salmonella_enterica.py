@@ -2,7 +2,7 @@ from skew import skew
 from neighbors import Neighbors
 from reverse_complement import reverse_complement
 from max_map import MaxMap
-def FrequentWordsWithMismatches_ReverseComplements(Text, k, d):
+def FrequentWordsWithMismatches_ReverseComplements(Text: str, k: int, d: int) -> list:
   """Finds the DnaA box for Salmonella. Use the Salmonella_enterica.txt file as Text."""
   Patterns = []
   freqMap = {}

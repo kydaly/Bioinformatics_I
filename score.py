@@ -1,5 +1,5 @@
 from motif_consensus import Consensus
-def Score(Motifs):
+def Score(Motifs: list) -> int:
     count = 0
     consensus = Consensus(Motifs)
     t = len(Motifs)

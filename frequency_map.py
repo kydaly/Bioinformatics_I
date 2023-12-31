@@ -1,4 +1,4 @@
-def FrequencyMap(Text, k):
+def FrequencyMap(Text: str, k: int) -> dict:
     """Takes in a string Text and kmer length k and outputs a dictionary,
     freq, with the frequency of every kmer in Text"""
     freq = {}

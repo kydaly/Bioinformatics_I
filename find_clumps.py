@@ -1,5 +1,5 @@
 from frequency_map import FrequencyMap
-def FindClumps(Text, k, L, t):
+def FindClumps(Text: str, k: int, L: int, t: int) -> list:
   """Outputs clumps of patterns with a value of t or higher. Inputs are a string Text, kmer length k,
   window length L, and frequency t."""
   # initiate a dictionary Patterns 

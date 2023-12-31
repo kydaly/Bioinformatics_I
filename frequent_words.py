@@ -1,6 +1,6 @@
 from frequency_map import FrequencyMap
 from max_map import MaxMap
-def FrequentWords(Text, k):
+def FrequentWords(Text: str, k: int) -> list:
     words =[]
     freq = FrequencyMap(Text, k)
     m = MaxMap(freq)

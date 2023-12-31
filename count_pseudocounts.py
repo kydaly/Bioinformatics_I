@@ -1,4 +1,5 @@
 def CountWithPseudocounts(Motifs:list) -> dict:
+    """Implements pseudocounts by initializing all matrix positions at 1."""
     count = {} 
     k = len(Motifs[0])
     for symbol in "ACGT":

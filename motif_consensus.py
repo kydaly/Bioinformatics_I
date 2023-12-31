@@ -1,5 +1,5 @@
 from motif_count import Count
-def Consensus(Motifs):
+def Consensus(Motifs: list) -> str:
     """Constructs a motif with the highest scoring nucleotides from each position."""
     k = len(Motifs[0])
     count = Count(Motifs)
