@@ -7,8 +7,6 @@ def ProfileMostProbableKmer(Text: str, k: int, Profile: dict) -> str:
   # for k go through each kmer in text
   for i in range(n-k+1):
     kmer = Text[i:i+k]
-
-  # use enumerate to get probability value of nucleotide at each location
     if i == 0:
       best_probability = pr(kmer, Profile)
     else: 
