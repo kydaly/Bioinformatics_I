@@ -9,6 +9,7 @@ def ProfileMostProbableKmer(Text: str, k: int, Profile: dict) -> str:
     kmer = Text[i:i+k]
     if i == 0:
       best_probability = pr(kmer, Profile)
+      best_kmer = kmer
     else: 
       probability = pr(kmer, Profile)
       if probability > best_probability:

@@ -3,5 +3,4 @@ def pr(gene: str, Profile: dict) -> float:
   probability = 1
   for i, char in enumerate(gene):
     probability *= Profile[char][i]
-    print(probability)
   return probability
